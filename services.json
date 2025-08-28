@@ -1,0 +1,68 @@
+{
+    "services": [
+      {
+        "name": "Massages",
+        "sub-services": [
+          {
+            "name": "Therapeutic Massage",
+            "description": "Relieves pain, reduces stress, and aids healing using kneading, pressing, and stretching techniques tailored to individual needs."
+          },
+          {
+            "name": "Deep Tissue Massage",
+            "description": "Uses firm pressure and slow strokes to target deep muscles, easing chronic pain, tightness, and mobility issues."
+          },
+          {
+            "name": "Cupping Massage",
+            "description": "Silicone cups create suction to improve blood flow, reduce tension, and promote relaxation."
+          },
+          {
+            "name": "Sports Massage",
+            "description": "Targets muscles used in activity to enhance performance, reduce soreness, and prevent injuries."
+          },
+          {
+            "name": "Orthopedic Massage",
+            "description": "Supports recovery from injuries or surgeries by reducing swelling, easing pain, and restoring mobility."
+          },
+          {
+            "name": "Lymphatic Drainage Massage",
+            "description": "Gentle technique that improves lymph flow, reduces swelling, boosts immunity, and supports healing."
+          }
+        ]
+      },
+      {
+        "name": "Facials",
+        "sub-services": [
+          {
+            "name": "Halo Facial",
+            "description": "Customized treatment with cleansing, exfoliation, extractions, massage, masks, and advanced techniques for youthful, healthy skin."
+          },
+          {
+            "name": "Mini Dermaplanning",
+            "description": "30-minute exfoliation that removes facial hair, enhances product absorption, and creates a smooth base for makeup."
+          },
+          {
+            "name": "PCA Skin Chemical Peel",
+            "description": "45-minute peel that targets aging, acne, discoloration, and sensitivity, leaving skin rejuvenated and radiant."
+          }
+        ]
+      },
+      {
+        "name": "Waxing",
+        "sub-services": [
+          { 
+            "name": "Full Face", 
+            "description": "Removes unwanted hair from the entire face, leaving skin smooth and makeup-ready." 
+          },
+          { 
+            "name": "Underarms", 
+            "description": "Quick and effective hair removal that leaves underarms clean, smooth, and longer-lasting than shaving." 
+          },
+          { 
+            "name": "Full Legs", 
+            "description": "Removes hair from both legs, providing silky-smooth skin and slower regrowth compared to shaving." 
+          }
+        ]
+      }      
+    ]
+  }
+  

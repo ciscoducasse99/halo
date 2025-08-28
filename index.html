@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Halo Massage</title>
+        
+        <!-- Preload critical resources -->
+        <link rel="preload" href="index.css" as="style">
+        <link rel="preload" href="services.js" as="script">
+        
+        <!-- Critical CSS -->
+        <link rel="stylesheet" href="index.css">
+        
+        <!-- Favicons -->
+        <link rel="icon" type="image/svg+xml" href="images/favicons/hm-icon.svg">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+        
+        <!-- Defer non-critical scripts -->
+        <script src="services.js" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4" defer></script>
+    </head>
+
+    <body>
+        <header>
+            HAL<span>O</span> MASSAGE
+        </header>
+
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="header-content-dark-overlay"></div>
+                <div class="header-content">
+                    <div class="main-text">
+                        Precision Massage, Divine Recovery
+                    </div>
+                    <div class="buttons">
+                        <a href="https://www.vagaro.com/halospa1/services" class="button book-now" target="_blank">Book Now</a>
+                        <a href="#services-section" class="button learn-more">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Me Section -->
+        <div class="container">
+            <div class="about-section">
+                <div class="about-image">
+                    <img src="yvete-simoes.png" alt="Licensed Massage Therapist" loading="lazy" />
+                </div>
+                <div class="about-text">
+                    <h3>About Halo</h3>
+                    <p>Yvete Simoes is a duel licensed Esthetician and Massage Therapist. She has been practicing Massage Therapy for over half a decade. Yvete attended the Elizabeth Grady School of Esthetics and Massage Therapy where she studied and completed anatomy, physiology and pathology of the human body as well as a ray of different techniques to therapeutically manipulate muscular tissue to release tension even from the most deepest muscle layers.</p>
+                    <p>At Halo Massage, we provide customized rehabilitation massage therapy that targets the root cause of their discomfort. We use a variety of techniques such as Deep Tissue, Cupping Therapy, Sports Injury and Orthopedic injury massage to promote healing and restore function. Each treatment plan is designed based on individual needs, with a focus on long-term recovery and injury prevention. Through ongoing support, education, and feedback, we ensure our clients feel heard, empowered, and on the path to recovery.</p>
+                    <p>Halo Massage accepts <b>FSA (Flexible Spending Account)</b> and <b>HSA (Health Savings Account)</b> spending cards.</p>
+                    <div class="credentials">
+                        <span class="credential">Sports Massage Specialist</span>
+                        <span class="credential">Orthopedic Massage Specialist</span>
+                        <span class="credential">Cupping Specialist</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="vagaro" style="width:250px; padding:0; border:0; margin:0 auto; text-align:center; font-size:14px; color:#AAA;"><style>.vagaro a {font-size:14px; color:#AAA; text-decoration:none;}</style><a href="https://www.vagaro.com/pro/">Powered by Vagaro</a>&nbsp;<a href="https://www.vagaro.com/pro/salon-software">Salon Software</a>,&nbsp;<a href="https://www.vagaro.com/pro/spa-software">Spa Software</a>&nbsp;&amp;&nbsp;<a href="https://www.vagaro.com/pro/fitness-software">Fitness Software</a><script type="text/javascript" src="https://www.vagaro.com//resources/WidgetPopupLoader/OZqpE3WrE3acT3qmV35y6RuSdBuOc1WJDvwXDxUra2StkvCxdfkJE1wgEJgoapOUc9CvdfQOW?v=nPOL3LEo9Mh81lyhY20rQpC1ktnPkaIPIQFhanoyuXk#"></script></div> -->
+
+        <!-- Services Section -->
+        <div class="container" id="services-section">
+            <div class="services-section">
+                <div class="services-header">
+                    <h3>Services</h3>
+                    <div id="category-buttons" class="category-buttons"></div>
+                </div>
+                <div id="services-container" class="services-grid">
+                    <!-- Services will be loaded dynamically -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Booking & Location Section -->
+        <div class="container">
+            <div class="booking-location-section">
+                <div class="booking-area">
+                    <h3>Halo's Reviews</h3>
+                    <div class="vagaro-widget">
+                        <div 
+                    id='frameTitle' 
+                    class='embedded-widget-title' 
+                    style='font-size: 23px; color: #333;font-family:Arial, Helvetica, sans-serif; line-height:24px; padding: 18px 10px 8px; text-align: center; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;'>
+                </div>
+                <div 
+                    class="vagaro" 
+                    style="width:250px; padding:0; border:0; margin:0 auto; text-align:center;">
+                        <style>.vagaro a {font-size:14px; color:#AAA; text-decoration:none;}</style>
+                        <a href="https://www.vagaro.com/pro/">Powered by Vagaro</a>&nbsp;
+                        <a href="https://www.vagaro.com/pro/salon-software">Salon Software</a>,&nbsp;
+                        <a href="https://www.vagaro.com/pro/spa-software">Spa Software</a>&nbsp;&amp;&nbsp;
+                        <a href="https://www.vagaro.com/pro/fitness-software">Fitness Software</a>
+                        <script type="text/javascript" src="https://www.vagaro.com//resources/WidgetEmbeddedLoader/OZqpE3WrE3acT3qpV3avV34mC2PeFJ4mC30m9dSycvCu7gCmjZcoapOUd1CvdfQOW?v=XYLG2b6pOGbX0FWnnUnkzu2G8ByUEufI2FIQSggPhJ5#"></script>
+                </div>
+                    </div>
+                </div>
+                <div class="location-area">
+                    <h3 class="pb-5">Come Visit Halo</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.439440944998!2d-71.4339189!3d42.652042300000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3bbd1f1dc64f1%3A0xe77e2e44206676f5!2sHalo%20Massage!5e0!3m2!1sen!2sus!4v1756075925066!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Halo Massage Location"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-left">
+                    <img src="hm-logo.png" alt="Halo Massage Logo" class="footer-logo" loading="lazy">
+                    <div class="contact-section">
+                        <h4>Want to get in contact?</h4>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <img src="images/icons/envelope.svg" alt="Email" class="contact-icon">
+                                <a href="mailto:ysimoes@halospa.net">ysimoes@halospa.net</a>
+                            </div>
+                            <div class="contact-item">
+                                <img src="images/icons/phone.svg" alt="Phone" class="contact-icon">
+                                <a href="tel:+19784088974">(978) 408-8974</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <div class="social-section">
+                        <h4>Follow our journey</h4>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon" aria-label="Facebook">
+                                <img src="images/icons/facebook.svg" alt="Facebook" class="social-icon-img">
+                            </a>
+                            <a href="https://www.instagram.com/halo_spa_/" class="social-icon" aria-label="Instagram" target="_blank">
+                                <img src="images/icons/instagram.svg" alt="Instagram" class="social-icon-img">
+                            </a>
+                            <a href="https://www.tiktok.com/@halospa6" class="social-icon" aria-label="TikTok" target="_blank">
+                                <img src="images/icons/tiktok.svg" alt="TikTok" class="social-icon-img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span>&copy; 2025 Halo Massage. All rights reserved.</span>
+        </footer>
+    </body>
+</html>
