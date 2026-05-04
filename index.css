@@ -387,6 +387,59 @@ footer {
     margin: 0;
 }
 
+/* --- Cancellation Policy --- */
+.cancellation-policy {
+    margin-top: 40px;
+    padding: 30px;
+    border-radius: 20px;
+    border-left: 1px solid var(--pink);
+    border-top: 1px solid var(--pink);
+    border-right: 1px solid var(--pink);
+    border-bottom: 1px solid var(--pink);
+    background-color: var(--secondary-background-color);
+}
+
+.cancellation-policy h4 {
+    color: var(--pink);
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 16px;
+}
+
+.cancellation-policy p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--primary-text-color);
+    margin: 0 0 14px;
+}
+
+.cancellation-policy ul {
+    margin: 0 0 14px;
+    padding-left: 20px;
+    color: var(--primary-text-color);
+}
+
+.cancellation-policy li {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 6px;
+}
+
+.cancellation-policy li::marker {
+    color: var(--pink);
+}
+
+.cancellation-policy .policy-promise {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.cancellation-policy .policy-thanks {
+    font-weight: 600;
+    color: var(--pink);
+    margin-bottom: 0;
+}
+
 /* --- Booking & Location Section --- */
 .booking-location-section {
     width: 100%;
@@ -644,6 +697,20 @@ footer span {
 
     .services-section {
         padding: 20px;
+    }
+
+    .cancellation-policy {
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    .cancellation-policy h4 {
+        font-size: 20px;
+    }
+
+    .cancellation-policy p,
+    .cancellation-policy li {
+        font-size: 14px;
     }
 
     .booking-location-section {
